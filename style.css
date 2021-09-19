@@ -1,0 +1,33 @@
+body {
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: white;
+    
+}
+
+#navbar-example2{
+    background-image: url('/Images/cool-background3.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-size: 20px;
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.nav-link{
+    color: white;
+    font-size: 20px;
+}
+
+.card-img-top{
+    width: 250px;
+    height: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
