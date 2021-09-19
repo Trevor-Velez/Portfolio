@@ -8,7 +8,7 @@ body {
 }
 
 #navbar-example2{
-    background-image: url('/Images/cool-background3.png');
+    background-image: url('Images/cool-background3.png');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
