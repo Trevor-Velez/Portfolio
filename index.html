@@ -39,10 +39,113 @@
         </ul>
         
       </nav>
+      <div class="container-fluid" style="padding-left: 25px; padding-right: 25px;">
+        <div class="row">
+          <div class="col-md-12">
+            <br>
+            <br>
+            <h1>Home Page</h1>
+            <hr>
+          </div>
+        </div>
+      </div>
+
+      <div class="container" style="padding-left: 25px; padding-right: 25px;">
+        <div class="row">
+          
+          <div class="card-group">
+            <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+              <img src="Images/contact.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title" style="text-align: center;">Contact Me</h5>
+                <hr>
+                <center><a href="contact.html"  class="btn btn-primary">Go</a></center>
+              </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+              <img src="Images/resume.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title"style="text-align: center;">Resume</h5>
+                <hr>
+
+                <center><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                  View
+                </button></center>
+                <br>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable modal-xl">
+                    <div class="modal-content" style="height: 1000px;">
+                      <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Resume</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+
+                          <iframe src="Images/testresume.pdf" style="height: 1000px;width: 100%;"></iframe>
+
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <center><a href="Images/testresume.pdf"  download="testresume" class="btn btn-primary">Download</a></center>
+              </div>
+            </div>
+          </div>
+                  
+          </div>
+
+
       <br>
       <br>
-      <h1>This is the index page</h1>
+      <h1 style="text-align: center;">Portfolio</h1>
       <hr>
+
+      <div class="row">
+        <div class="card-group">
+          <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+            <img src="Images/Data_visualization_process_v1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"style="text-align: center;">Project 1</h5>
+              <hr>
+              <p class="card-text"style="text-align: center;">Exploratory Data Analysis</p>
+              <center><a href="project1.html"  class="btn btn-primary">Go</a></center>
+            </div>
+          </div>
+          <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+            <img src="Images/etllogo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"style="text-align: center;">Project 2</h5>
+              <hr>
+              <p class="card-text"style="text-align: center;">Extract, Transform, Load</p>
+              <center><a href="project2.html"  class="btn btn-primary">Go</a></center>
+            </div>
+          </div>
+          <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"style="text-align: center;">Project 3</h5>
+              <hr>
+              <p class="card-text"style="text-align: center;">TBD</p>
+              <center><a href="project1.html"  class="btn btn-primary">Go</a></center>
+            </div>
+          </div>
+          <div class="card text-white bg-dark mb-3" style="border: 1px solid white">
+            <img src="..." class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title"style="text-align: center;">Project 4</h5>
+              <hr>
+              <p class="card-text"style="text-align: center;">TBD</p>
+              <center><a href="project1.html"  class="btn btn-primary">Go</a></center>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   </body>
